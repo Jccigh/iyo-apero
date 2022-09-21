@@ -78,9 +78,9 @@ enableEmoji = true
       icon_pack = "fab"
       url       = "https://github.com/apreshill/apero"
   [[params.social]]
-      icon      = "facebook-square" # icon name without the 'fa-'
+      icon      = "youtube" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
+      url       = "https://www.youtube.com"
   [[params.social]]
       icon      = "instagram" # icon name without the 'fa-'
       icon_pack = "fab"

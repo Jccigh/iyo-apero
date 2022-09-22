@@ -11,7 +11,12 @@ categories:
 - evergreen
 ---
 
-{{< here >}}
+
+## Prueba texto
+
+```{r}
+dplyr::glimpse(mtcars)
+```
 
 ## But first, panelsets with R code chunks
 

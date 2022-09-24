@@ -4,23 +4,19 @@ description: |
   This is a fully featured blog that supports categories, 
   tags, series, and pagination.
 author: "The R Markdown Team @RStudio"
-show_post_thumbnail: true
-show_author_byline: true
+show_post_thumbnail: false
+show_author_byline: false
 show_post_date: true
 # for listing page layout
-layout: list-grid # list, list-sidebar, list-grid
+layout: list-sidebar # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar: 
-  title: A Sidebar for JCCIGH Thoughts
+  title: Finanzas personales
   description: |
-    This is a fully featured blog that supports categories,
-    tags, series, and pagination. Even this sidebar offers 
-    a ton of customizations.
+    Opiniones acerca de finanzas personales
     
-    Check out the _index.md file in the /blog folder 
-    to edit this content. 
-  author: "The R Markdown Team @RStudio"
+  author: "jccigh" #"The R Markdown Team @RStudio"
   text_link_label: Subscribe via RSS
   text_link_url: /index.xml
   show_sidebar_adunit: false # show ad container

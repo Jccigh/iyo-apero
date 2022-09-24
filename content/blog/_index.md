@@ -1,8 +1,7 @@
 ---
-title: A Blog That Works
+title: Blog de finanzas personales
 description: |
-  This is a fully featured blog that supports categories, 
-  tags, series, and pagination.
+  Ayuda a ordenar las finanzas.
 author: "The R Markdown Team @RStudio"
 show_post_thumbnail: false
 show_author_byline: false

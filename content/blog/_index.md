@@ -2,7 +2,7 @@
 title: Blog de finanzas personales
 description: |
   Ayuda a ordenar las finanzas.
-author: "The R Markdown Team @RStudio"
+author: "Yo @RStudio"
 show_post_thumbnail: false
 show_author_byline: false
 show_post_date: true
@@ -22,9 +22,9 @@ sidebar:
 
 # set up common front matter for all pages inside blog/
 cascade:
-  author: "The R Markdown Team @RStudio"
-  show_author_byline: true
-  show_post_date: true
+  author: "The R Markdown Team @RStudio & jccigh"
+  show_author_byline: false
+  show_post_date: false
   show_disqus_comments: false # see disqusShortname in site config
   # for single-sidebar layout
   sidebar:

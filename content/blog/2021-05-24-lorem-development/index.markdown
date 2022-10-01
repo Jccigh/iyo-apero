@@ -15,10 +15,6 @@ categories:
 ## Prueba texto
 
 
-```r
-dplyr::glimpse(mtcars)
-```
-
 ```
 ## Rows: 32
 ## Columns: 11
@@ -39,6 +35,15 @@ dplyr::glimpse(mtcars)
 
 {{< panelset class="greetings" >}}
 {{< panel name="Plot" >}}
+
+
+```r
+sum(mtcars$mpg)
+```
+
+```
+## [1] 642.9
+```
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/plot-1.png" width="672" />
 

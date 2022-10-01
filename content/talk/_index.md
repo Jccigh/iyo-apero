@@ -8,7 +8,7 @@ show_author_byline: true
 show_post_date: true
 show_post_time: true
 # for listing page layout
-layout: list # list, list-sidebar
+layout: list-sidebar # list, list-sidebar
 
 # for list-sidebar layout
 sidebar: 

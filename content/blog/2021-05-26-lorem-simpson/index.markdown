@@ -1,7 +1,7 @@
 ---
-title: "Lorem Simpson"
-subtitle: ""
-excerpt: "An .Rmarkdown post"
+title: "jcc_"
+subtitle: "prueba subt_"
+excerpt: "An .Rmarkdown post o mardown????"
 date: 2021-05-26
 author: "Alison Hill"
 draft: false
@@ -12,12 +12,11 @@ categories:
 layout: single
 ---
 
-{{< here >}}
 
 ## Some penguins to start
 
 
-```r
+```r 
 library(tidyverse)
 ```
 

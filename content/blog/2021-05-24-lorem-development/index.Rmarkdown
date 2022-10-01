@@ -14,7 +14,9 @@ categories:
 
 ## Prueba texto
 
-```{r}
+```{r, echo=FALSE, message=FALSE}
+library(dplyr)
+library(calibrate)
 dplyr::glimpse(mtcars)
 ```
 
@@ -22,6 +24,10 @@ dplyr::glimpse(mtcars)
 
 {{< panelset class="greetings" >}}
 {{< panel name="Plot" >}}
+
+```{r}
+sum(mtcars$mpg)
+```
 
 ```{r plot, echo=FALSE}
 plot(pressure)

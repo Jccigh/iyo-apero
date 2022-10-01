@@ -1,9 +1,9 @@
 ---
-title: "Lorem Simpson"
-subtitle: ""
+title: "Prueba mia del blog"
+subtitle: "prueba subtitulo Rmardown"
 excerpt: "An .Rmarkdown post"
-date: 2021-05-26
-author: "Alison Hill"
+date: 2022-10-01
+author: "jcc"
 draft: false
 images:
 series:
@@ -12,13 +12,12 @@ categories:
 layout: single
 ---
 
-{{< here >}}
 
 ## Some penguins to start
 
-```{r}
+```{r, echo=FALSE}
 library(tidyverse)
-library(palmerpenguins)
+#library(palmerpenguins)
 ```
 
 ```{r}

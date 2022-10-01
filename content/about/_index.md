@@ -1,7 +1,7 @@
 ---
-title: "About"
+title: "About ¿es necesario?"
 description: |
-  A Hugo theme made for R Markdown users.
+  A Hugo theme made for R Markdown users y jccigh.
 show_header: true
 sidebar_left: false
 # Keep this! Do not edit.

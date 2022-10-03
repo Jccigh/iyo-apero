@@ -16,11 +16,34 @@ layout: single
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+```{r, echo=FALSE, message=FALSE}
+library(reticulate)
+```
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+### Que es un PIAS
+
+Los planes individuales de ahorro sistemático o PIAS es un seguro de ahorro. Creado en 2007 tras la reforma del IRPF, el objetivo de este producto es el de incentivar el ahorro a largo plazo con ciertas ventajas fiscales previstas en el caso de cobrarse como renta vitalicia. En este caso los beneficios obtenidos de la inversión son rendimientos exentos de tributación (aunque la renta vitalicia sí que tributa en un rango variable en función de la edad del beneficiario)
+
+
+
+### Requisitos y Características de los PIAS
+
+* Requisitos
+  + El tomador, asegurado y beneficiario debe ser el propio contribuyente
+  + Renta vitalicia. Para poder constituirla el PIAS deberá tener una antigüedad mínima de 5 años
+  + El límite de primas anual que se puede aportar al producto es de 8.000€, eso sí, independientemente de las aportaciones a sistemas de previsión social
+  + El límite total de primas acumuladas no debe ser superior a 240.000€
+  
+* Características
+  + Las aportaciones no desgravan en la renta aunque sea un seguro
+  + Permite el traspaso entre PIAS y sin tributar por los beneficios
+  + En caso de fallecimiento se puede elegir el beneficiario sin tener que ser un heredero
+
+```{python, echo=FALSE}
+print("Hello Python!")
+```
+
 
 ```{r cars}
 summary(cars)

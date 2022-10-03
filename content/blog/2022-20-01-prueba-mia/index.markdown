@@ -1,7 +1,7 @@
 ---
-title: "Prueba PIAS"
-subtitle: "descripcion PIAS ¿es un buen producto"
-excerpt: "An .Rmarkdown post"
+title: "PIAS - Planes individuales de ahorro sistemático"
+subtitle: "Descripcion, Requisitos y Caraterísticas - ¿es un buen producto"
+excerpt: "¿merece la pena contratar un PIAS"
 date: 2022-10-01
 author: "jcc"
 draft: false
@@ -41,6 +41,8 @@ Es un seguro de vida que está más enfocado a ser un producto de ahorro. La apo
   + Es un producto líquido aunque la penalización por rescate los primeros años es muy alta
   + Es un producto con varias capas de comisiones ya que a las comisiones de los PIAS hay que sumar la de los productos de inversión y la prima del seguro. En ocasiones son muy elevadas
   + Es complicado comparara productos ya que no hay datos oficiales
+  
+* Otro dato importante a tener en cuenta es que en caso de ser mayor de 65 años, si se reembolsa un fondo de inversión y se reinvierte en una renta vitalicia, se está exento de tributar por la ganancia patrimonial. Esto hace que el PIAS pierda su principal ventaja frente a otras opciones
 
 
 ```

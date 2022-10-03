@@ -15,14 +15,12 @@ layout: single
 
 
 
-```
-## Warning: package 'reticulate' was built under R version 4.1.3
-```
 
 
 ### Que es un PIAS
 
-Los planes individuales de ahorro sistemático o PIAS es un seguro de ahorro. Creado en 2007 tras la reforma del IRPF, el objetivo de este producto es el de incentivar el ahorro a largo plazo con ciertas ventajas fiscales previstas en el caso de cobrarse como renta vitalicia. En este caso los beneficios obtenidos de la inversión son rendimientos exentos de tributación (aunque la renta vitalicia sí que tributa en un rango variable en función de la edad del beneficiario)
+Los planes individuales de ahorro sistemático o PIAS son seguros de vida-ahorro. Creados en 2007 tras la reforma del IRPF, el objetivo de este producto es el de incentivar el ahorro a largo plazo con ciertas ventajas fiscales previstas en el caso de cobrarse como renta vitalicia. En este caso los beneficios obtenidos de la inversión son rendimientos exentos de tributación (aunque la renta vitalicia sí que tributa, en un rango variable, en función de la edad del beneficiario).
+Es un seguro de vida que está más enfocado a ser un producto de ahorro. La aportación al PIAS se divide en dos partes, la primera destinada al pago de una prima para una cobertura de fallecimiento (esta proporción es muy pequeña respecto del total aportado) más una cantidad destinada a la inversión.
 
 
 
@@ -30,14 +28,19 @@ Los planes individuales de ahorro sistemático o PIAS es un seguro de ahorro. Cr
 
 * Requisitos
   + El tomador, asegurado y beneficiario debe ser el propio contribuyente
-  + Renta vitalicia. Para poder constituirla el PIAS deberá tener una antigüedad mínima de 5 años
-  + El límite de primas anual que se puede aportar al producto es de 8.000€, eso sí, independientemente de las aportaciones a sistemas de previsión social
-  + El límite total es de 240.000€
+  + Renta vitalicia. Para poder constituirla y obtener las ventajas fiscales el PIAS deberá tener una antigüedad mínima de 5 años (aunque se pueda rescatar en cualquier momento)
+  + El límite de primas que se pueden aportar al producto anualmente es de 8.000€, eso sí, independientemente de las aportaciones a sistemas de previsión social
+  + El límite total de primas acumuladas no debe ser superior a 240.000€
   
 * Características
   + Las aportaciones no desgravan en la renta aunque sea un seguro
   + Permite el traspaso entre PIAS y sin tributar por los beneficios
   + En caso de fallecimiento se puede elegir el beneficiario sin tener que ser un heredero
+  + Los activos no están a nombre del asegurado sino de la compañía aseguradora. Importante en caso de quiebra de la compañía 
+  + Son de dos tipos: garantizados o aquellos donde el riesgo de la inversión lo tiene el tomador (en este caso suele tener el mismo formato que los Unit Link)
+  + Es un producto líquido aunque la penalización por rescate los primeros años es muy alta
+  + Es un producto con varias capas de comisiones ya que a las comisiones de los PIAS hay que sumar la de los productos de inversión y la prima del seguro. En ocasiones son muy elevadas
+  + Es complicado comparara productos ya que no hay datos oficiales
 
 
 ```

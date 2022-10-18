@@ -1,9 +1,9 @@
 ---
-title: "About ¿es necesario?"
+title: "About ¿es necesario??" #parece que esto se muestra en la pestaña de arriba del navegador
 description: |
-  A Hugo theme made for R Markdown users y jccigh.
+  A Hugo theme made for R Markdown users y jccigh.   #pdte de ver donde se ve esta descripcion
 show_header: true
-sidebar_left: false
+sidebar_left: false   #si queremos el sidebar a la izquierda o si es false a la derecha
 # Keep this! Do not edit.
 cascade:
   headless: true

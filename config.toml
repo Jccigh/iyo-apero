@@ -28,7 +28,7 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "PerFin_aa"
+  orgName = "PerFin_aaa"
   orgLocal = "PersFin_ESP"
   description = "A modern, beautiful, and easily configurable blog theme for Hugo. Cambios pdtes aqui"
   favicon = "/img/favicon.ico"

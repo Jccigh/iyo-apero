@@ -22,7 +22,7 @@ library(reticulate)
 ```
 
 
-### Que es un PIAS
+### ¿Que es un PIAS?
 
 Los planes individuales de ahorro sistemático o PIAS son seguros de vida-ahorro. Creados en 2007 tras la reforma del IRPF, el objetivo de este producto es el de incentivar el ahorro a largo plazo con ciertas ventajas fiscales previstas en el caso de cobrarse como renta vitalicia. En este caso los beneficios obtenidos de la inversión son rendimientos exentos de tributación (aunque la renta vitalicia sí que tributa, en un rango variable, en función de la edad del beneficiario).
 Es un seguro de vida que está más enfocado a ser un producto de ahorro. La aportación al PIAS se divide en dos partes, la primera destinada al pago de una prima para una cobertura de fallecimiento (esta proporción es muy pequeña respecto del total aportado) más una cantidad destinada a la inversión.

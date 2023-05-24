@@ -1,15 +1,16 @@
 ---
 title: "PIAS - Planes individuales de ahorro sistemático"
-subtitle: "Descripcion, Requisitos y Caraterísticas - ¿es un buen producto"
-excerpt: "¿merece la pena contratar un PIAS?"
-date: 2022-10-01
 author: "jcc"
-draft: false
-images:
-series:
-tags:
-categories:
+date: '2022-10-01'
+output: pdf_document
+subtitle: Descripcion, Requisitos y Caraterísticas - ¿es un buen producto
+draft: no
+images: null
+series: null
+tags: null
+categories: null
 layout: single
+excerpt: ¿merece la pena contratar un PIAS?
 ---
 
 ```{r setup, include=FALSE}
@@ -48,8 +49,104 @@ Es un seguro de vida que está más enfocado a ser un producto de ahorro. La apo
   
 * Otro dato importante a tener en cuenta es que en caso de ser mayor de 65 años, si se reembolsa un fondo de inversión y se reinvierte en una renta vitalicia, se está exento de tributar por la ganancia patrimonial. Esto hace que el PIAS pierda su principal ventaja frente a otras opciones
 
+```{r, warning=FALSE}
+library(reticulate)
+```
+
+
 ```{python, echo=FALSE}
-print("Hello Python!")
+#!pip3 install pandas
+#!pip3 install selenium
+import numpy as np
+from random import randint, randrange
+import pandas as pd
+import os
+import selenium
+import time
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.keys import Keys
+```
+
+```{python, echo=FALSE}
+chromedriver = "C:/Users/Juan/Downloads/chromedriver"
+os.environ["webdriver.chrome.driver"] = chromedriver
+driver = webdriver.Chrome(chromedriver)
+```
+
+```{python, echo=FALSE}
+urls = [
+    'https://www.morningstar.es/es/funds/snapshot/snapshot.aspx?id=F00000WUGK&tab=3'
+    ] 
+```
+
+```{python, echo=FALSE}
+for url in urls:
+
+    driver.get(str(url))
+
+    time.sleep(2.5)
+
+    element_nmb=driver.find_element("xpath", '//*[@id="snapshotTitleDiv"]/table/tbody/tr/td/div/h1')
+    element_nmb=element_nmb.text
+
+    time.sleep(1.5)
+    
+    iframe = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.XPATH, "//iframe[@id='portfolio']")))
+    driver.switch_to.frame(iframe)
+
+    time.sleep(4.5)
+
+    element_fec1=driver.find_element("xpath", '/html/body/div/sal-components-pillar-cards-process/div/div[2]/div/div[3]/div[2]/div[2]/sal-components-mip-stock-style/div/div/div/div[2]/div[1]/div/div/div[2]')    
+    element_fec1=element_fec1.text
+    element_nmb_val=element_fec1.find("fecha")
+    element_fec2=element_fec1[element_nmb_val:element_nmb_val+16]
+    
+    time.sleep(1.5)
+    
+    element1=driver.find_element("xpath",'/html/body/div/sal-components-pillar-cards-process/div/div[2]/div/div[3]/div[2]/div[2]')
+    
+    time.sleep(2.5)
+    
+    element2=element1.find_element("xpath", '//*[@id="styleWeight"]').click()
+    numbers = driver.find_elements("xpath", "//div[@class='sal-stock-style__weight']//*[name()='svg' and @role='figure']//*[name()='g' and @class='style-box-text-layer']//*[name()='text']")
+    
+    data = []
+    for num in numbers:
+        data.append(num.text)
+    
+    time.sleep(1.5)
+    
+    data1 = [int(data[6]), int(data[3]), int(data[0]), int(data[7]), int(data[4]), int(data[1]), int(data[8]), int(data[5]), int(data[2])]
+    
+    time.sleep(2.5)
+    
+    element3=driver.find_element("xpath",'/html/body/div/sal-components-pillar-cards-process/div/div[2]/div/div[5]/div[1]')
+    element4=element3.find_element("xpath", '//*[@id="region"]').click()
+    
+    time.sleep(2.5)
+    
+    mytable = driver.find_element("xpath", '/html/body/div/sal-components-pillar-cards-process/div/div[2]/div/div[6]/div[1]/div/sal-components-mip-exposure/div/div/div/div[2]/div[2]/sal-components-mip-region-exposure/div/div/div/div[1]/div/div[1]/table/tbody')
+    data2 = []
+    for row in mytable.find_elements("css_selector", 'tr'):
+        for cell in row.find_elements("tag_name", 'td'):
+            data2.append(cell.text)
+            
+    data3 = [float(data2[1].replace(',','.')), float(data2[4].replace(',','.')), float(data2[7].replace(',','.')), float(data2[10].replace(',','.')), float(data2[13].replace(',','.'))
+                    , float(data2[16].replace(',','.')), float(data2[19].replace(',','.')), float(data2[22].replace(',','.'))
+                    , float(data2[25].replace(',','.')), float(data2[28].replace(',','.'))]
+```
+
+```{python, echo=FALSE}
+    
+```
+
+```{python, echo=FALSE}
+
 ```
 
 

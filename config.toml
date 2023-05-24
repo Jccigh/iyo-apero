@@ -1,7 +1,7 @@
 baseURL = "/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Personal website of Jccigh"
+title = "Personal website of Jccigh"   #parece que esto se muestra en la pestaña de arriba del navegador
 author = "Juan CC"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""

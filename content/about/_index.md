@@ -1,5 +1,5 @@
 ---
-title: "About ¿es necesario??" #parece que esto se muestra en la pestaña de arriba del navegador
+title: "About ¿es necesario??" #parece que esto se muestra en la pestaña de arriba del navegador - se muestra si                                        #show_title_as_headline: true en index header
 description: |
   A Hugo theme made for R Markdown users y jccigh.   #pdte de ver donde se ve esta descripcion
 show_header: true

@@ -1,6 +1,6 @@
 ---
 title: "PIAS - Planes individuales de ahorro sistemático"
-subtitle: "Descripcion, Requisitos y Caraterísticas - ¿es un buen producto"
+subtitle: "Descripcion, Requisitos y Caraterísticas - ¿es un buen producto?"
 excerpt: "¿merece la pena contratar un PIAS?"
 date: 2022-10-01
 author: "jcc"

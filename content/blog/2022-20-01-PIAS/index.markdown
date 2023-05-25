@@ -74,49 +74,7 @@ You can also embed plots, for example:
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 
-```r
-library(shiny)
-library(ggplot2)
-
-# UI
-ui <- fluidPage(
-  titlePanel("Sum and Graph Example"),
-  
-  sidebarLayout(
-    sidebarPanel(
-      numericInput("number1", "Enter number 1:", value = 0),
-      numericInput("number2", "Enter number 2:", value = 0),
-      actionButton("calculate", "Calculate")
-    ),
-    
-    mainPanel(
-      plotOutput("graph")
-    )
-  )
-)
-
-# Server
-server <- function(input, output) {
-  observeEvent(input$calculate, {
-    # Calculate sum
-    sum_result <- input$number1 + input$number2
-    
-    # Create a data frame for graph
-    data <- data.frame(
-      Number = c("Number 1", "Number 2", "Sum"),
-      Value = c(input$number1, input$number2, sum_result)
-    )
-    
-    # Render graph
-    output$graph <- renderPlot({
-      ggplot(data, aes(x = Number, y = Value, fill = Number)) +
-        geom_bar(stat = "identity") +
-        labs(title = "Sum and Graph Example", x = "Number", y = "Value") +
-        theme_minimal()
-    })
-  })
-}
-
-# Run the application
-shinyApp(ui = ui, server = server)
 ```
+```
+<iframe height="800" width="100%" frameborder="no" src="https://antoinesoetewey.shinyapps.io/statistics-201/"> </iframe>
+``````

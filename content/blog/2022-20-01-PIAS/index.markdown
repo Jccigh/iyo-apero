@@ -76,5 +76,5 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 ```
 ```
-<iframe height="800" width="100%" frameborder="no" src="https://jccigh.shinyapps.io/assetallocationupdown"> </iframe>
+<iframe height="200" width="100%" frameborder="no" src="https://jccigh.shinyapps.io/assetallocationupdown"> </iframe>
 ``````

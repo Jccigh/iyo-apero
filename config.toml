@@ -32,7 +32,7 @@ enableEmoji = true
   orgLocal = "PersFin_ESP"
   description = "A modern, beautiful, and easily configurable blog theme for Hugo. Cambios pdtes aqui"
   favicon = "/img/favicon.ico"
-  logo = "/img/blogophonic-mark-dark.png"
+  logo = "/img/unicorn-megaphone.png"
   mainSections = ["blog", "project", "talk"]
   navallcaps = false
   # show/hide social icons in site header & footer
